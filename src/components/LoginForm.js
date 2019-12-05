@@ -1,17 +1,16 @@
-import react from 'react';
+import React from 'react';
 
 const loginForm = () => {
     
     return (
         <div>
-            <form onSubmit={}>
+            <form >
                 <label> 
                     Username
                     <input 
                         type="text"
                         name="username"
-                        value={}
-                        onChange={}
+                        
                         />
                 </label>
                 <label> 
@@ -19,8 +18,7 @@ const loginForm = () => {
                     <input 
                         type="password"
                         name="password"
-                        value={}
-                        onChange={}
+                        
                         />
                 </label>
             </form>
